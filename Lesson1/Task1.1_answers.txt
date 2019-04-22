@@ -93,7 +93,8 @@
 			
 		18. git add .
 			git commit -m 'commit v1.0'
-			git push Task master v1.0
+			git tag -f v-1.0
+			git push Task master
 			
 		
 			
