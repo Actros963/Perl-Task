@@ -70,7 +70,7 @@
 			git merge master feature1
 			git status
 			git add .
-			git commit -m 'commit after merge feature1 mod Task1.1_answers.txt'
+			git commit -m 'first commit after merge feature1'
 			
 	   
 			
