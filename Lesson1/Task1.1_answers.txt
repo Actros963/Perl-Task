@@ -39,13 +39,6 @@
 			gi status
 			git add .
 			git commit -m 'modified Task1.1_answers.txt'
-			git push Task master
-			в первом 
-			git pull Task master
-			
-		10. git rev-list -n 1 HEAD -- fileB.txt
-    		c9c6109d2eb2c754d859ac406dc2335fdede1287
-
 			
 	   
 			
