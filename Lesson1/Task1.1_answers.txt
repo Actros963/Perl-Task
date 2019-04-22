@@ -39,6 +39,24 @@
 			gi status
 			git add .
 			git commit -m 'modified Task1.1_answers.txt'
+<<<<<<< HEAD
+=======
+			git push Task master
+			в первом 
+			git pull Task master
+			
+		10. git rev-list -n 1 HEAD -- fileB.txt
+    		c9c6109d2eb2c754d859ac406dc2335fdede1287
+			git checkout c9c6109d2eb2c754d859ac406dc2335fdede1287^ -- fileB.txt
+			git status
+			git add .
+			git commit -m 'restored fileB.txt and  Task1.1_answers.txt mod'
+			git push Task master
+			
+		11. git pull Task master
+			git log -p
+			
+>>>>>>> 361c9dff5fd0aaa4bdd01c4ea335d3ff9a75eb2b
 			
 	   
 			
