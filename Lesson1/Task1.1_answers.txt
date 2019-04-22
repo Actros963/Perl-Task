@@ -45,7 +45,15 @@
 			
 		10. git rev-list -n 1 HEAD -- fileB.txt
     		c9c6109d2eb2c754d859ac406dc2335fdede1287
-
+			git checkout c9c6109d2eb2c754d859ac406dc2335fdede1287^ -- fileB.txt
+			git status
+			git add .
+			git commit -m 'restored fileB.txt and  Task1.1_answers.txt mod'
+			git push Task master
+			
+		11. git pull Task master
+			git log -p
+			
 			
 	   
 			
