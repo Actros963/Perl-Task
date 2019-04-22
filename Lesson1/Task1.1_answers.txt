@@ -39,8 +39,6 @@
 			gi status
 			git add .
 			git commit -m 'modified Task1.1_answers.txt'
-<<<<<<< HEAD
-=======
 			git push Task master
 			в первом 
 			git pull Task master
@@ -51,12 +49,28 @@
 			git status
 			git add .
 			git commit -m 'restored fileB.txt and  Task1.1_answers.txt mod'
-			git push Task master
+			git push Task master #реп 1
 			
-		11. git pull Task master
+		11. git pull Task master  #реп 2
 			git log -p
 			
->>>>>>> 361c9dff5fd0aaa4bdd01c4ea335d3ff9a75eb2b
+		12. git checkout -b feature1
+			vim fileB.txt
+			git add .
+			git commit -m 'commit feature1'
+			git push Task feature1
+			
+		13. git checkout -b feature2
+		
+		14. git pull
+			git branch --remote
+			git checkout master
+			git checkout -b feature1 origin/feature1
+			git checkout master
+			git merge master feature1
+			git status
+			git add .
+			git commit -m 'first commit after merge feature1'
 			
 	    12. git checkout -b feature1
 			vim fileB.txt
