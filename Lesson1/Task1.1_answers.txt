@@ -1,0 +1,19 @@
+      1.    (D:\Perl_Tasks)  	- папка локального репозитория.
+            git init   - этой командой инициализируем локальный репозиторий.
+
+      2.    git config global user.name "Александр Новожилов"   -  имя пользователя.
+			git config global user.email "mb934@yandex.ru"           - адрес электронной почты.
+
+	  3.	git config --global --list       убеждаемся, что данные введены верно.
+
+     
+      
+      4.    Task1.1.doc в каталоге Lesson1.  В каталоге D:\Perl_Tasks\.git\info в файле exclude
+            указываем исключение файла Lesson1/Task1.1.doc
+ 
+      5.    Task1.1_answers.doc там же.
+
+
+
+     
+      
