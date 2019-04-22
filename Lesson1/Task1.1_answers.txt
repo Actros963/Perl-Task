@@ -26,27 +26,9 @@
 			‚ первом репозитории
 			git pull Task master
 			
-	   8.   vim fileA.txt  дополнительнаЯ запись редакторе пишем затем -> esc -> : -> wq  
-			git rm fileB.txt  - удаление файла fileB.txt
-			git status
-			git add .
-			git commit 
-			git push Task master
+	  
 			
-	   9.   git status
-			git add .
-			git commit
-			git log в первом
-			git log во втором  
-			git push Task master во втором 
-			git pull Task naster в первом
-			
-	   10.  git checkout 7154852
-			git status
-			git push Task master
-			
-	   11
-
+	   
 
 
      
