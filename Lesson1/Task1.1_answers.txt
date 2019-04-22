@@ -49,9 +49,9 @@
 			git status
 			git add .
 			git commit -m 'restored fileB.txt and  Task1.1_answers.txt mod'
-			git push Task master
+			git push Task master #реп 1
 			
-		11. git pull Task master
+		11. git pull Task master  #реп 2
 			git log -p
 			
 			
