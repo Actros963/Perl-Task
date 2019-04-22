@@ -32,6 +32,13 @@
 			git add .
 			git commit 
 			git push Task master
+		
+		9.  git status
+			git pull Task master
+			правка Task 1.1_answers.txt
+			gi status
+			git add .
+			git commit -m 'modified Task1.1_answers.txt'
 			
 	   
 			
