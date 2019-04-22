@@ -13,7 +13,29 @@
  
       5.    Task1.1_answers.doc там же.
 
-
+	  6.    Клонирование
+			git clone https://github.com/Actros963/Perl_Tasks.git		
+			
+	  7.    Во втором репозитории:
+			vim fileA.txt в редакторе пишем затем -> esc -> : -> wq
+			vim fileB.txt в редакторе пишем затем -> esc -> : -> wq
+			git add fileA.txt fileB.txt
+			git commit
+			git remote add Task https://github.com/Actros963/Perl_Tasks.git
+			git push Task master
+			В первом репозитории
+			git pull Task master
+			
+	   8.   vim fileA.txt  дополнительная запись редакторе пишем затем -> esc -> : -> wq  
+			git rm fileB.txt  - удаление файла fileB.txt
+			git status
+			git add .
+			git commit 
+			git push Task master
+			
+	   
+			
+	   
 
      
       
