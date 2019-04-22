@@ -84,6 +84,18 @@
 			git commit -m 'commit update Task1.1_answers.txt'
 			git push Tasc feature2
 			
+		16. git reset --hard a29e711de471408fd6f3fa5c569ab98203eb9e4a
+		    git merge master feature2
+						
+		17. git log --graph
+			git branch -D feature1
+			git push Task --delete feature1
+			
+		18. git add .
+			git commit -m 'commit v1.0'
+			git push Task master v1.0
+			
+		
 			
 	   
 
