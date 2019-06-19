@@ -35,6 +35,8 @@ foreach (@Mod){
 print Dumper @Mod;
 
 # my @Rep_Mod = map {
-#     $_ =~ s/([A-Z]-\d{3})/$Mod_Alias{$1}/;
+#     my $temp = $_;
+#     $temp =~ s/([A-Z]-\d{3})/$Mod_Alias{$1}/;
+#     $temp;
 # } @Mod;
-# print @Rep_Mod[0];
+# print Dumper @Rep_Mod;
